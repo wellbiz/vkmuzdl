@@ -4,7 +4,7 @@ var _get_it_btn = $('div.get_it_btn');
 $(document).on('mouseenter', 'div.play_new', function(event) {
     if (_get_it_btn.css('display') == 'none') {
         var url = $(this).parents().eq(1).children('input').attr('value');
-        var title = $(this).parents().eq(2).children("div.info").children("div.title_wrap").text();
+        var title = $(this).parents().eq(2).children(".info").children("div.title_wrap").text();
         var position = $(this).offset();
         _get_it_btn.css({
             'left':position.left+'px',
