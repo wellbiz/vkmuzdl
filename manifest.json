@@ -4,7 +4,7 @@
         "128": "icon_128.png"
     },
     "permissions": [ "http://vk.com/*", "https://vk.com/*" ],
-    "version": "0.1.2",
+    "version": "0.1.4",
     "content_scripts": [ {
         "js": [ "js/jquery-1.8.3.min.js","js/vkmp3.js" ],
         "matches": [ "http://vk.com/*", "https://vk.com/*" ]
